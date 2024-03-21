@@ -1,0 +1,10 @@
+name: 'Mission Reviewer'
+description: 'Review missions for basic mistakes'
+author: 'SOG'
+inputs:
+  GITHUB_TOKEN:
+    required: true
+    description: 'github token'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
